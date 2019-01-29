@@ -11,6 +11,11 @@ class_a = ['Petya', 'Vasya', 'Lena', 'Igor', 'Alsu']
 class_b = ['Sasha', 'Slava', 'Petya', 'Denis', 'Lena']
 result = list(set(class_a) - set(class_b))
 print(result)
+
+for b in class_b:
+while b in class_a:
+class_a.remove(b)
+print(list_a)
 """
 # Task three
 """
