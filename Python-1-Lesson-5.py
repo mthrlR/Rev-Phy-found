@@ -52,8 +52,7 @@ print("{}{}{}{}".format('Текущая рабочая директория: ', 
 shutil.copy2('Python-1-Lesson-5.py', 'new_py.py')
 """
 
-# Normal part
-# Task one
+# DZ
 print('sys.argv = ', sys.argv)
 def print_help():
     print("help - получение справки")
