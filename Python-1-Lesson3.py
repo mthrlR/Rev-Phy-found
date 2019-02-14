@@ -1,22 +1,21 @@
 #  Task one easy
 """
-name = input("Write down ur name ")
-age = input("How old are u ")
-citizenship = input("In what town do u leave ")
-def f(name, age, citizenship):
-    return name + age + citizenship
-print(name + ', ' + age + 'год(а)' + ' ,проживает в городе ' + citizenship)
+def person_info(name, age, citizenship):
+    return ('{}, {}, live in {}'.format(name, age, citizenship))
+
+print(person_info(input('Write down ur name: '), input('How old are u? '), input('In what town do u leave? ')))
 """
-
 #  Task two easy
-#print(zip(lambda x,y,z: max(x, y, z)))
-#    return max(num(x,y,z))
-x = int(input('Введите число Х'))
-y = int(input('Введите число Y'))
-z = int(input('Введите число Z'))
-#print(max(x,y,z))
-def num()
+"""
+def max_number(a, b, c):
+    return max(a, b, c)
 
-
-
+print(max_number(1, 2, 3))
+"""
+#Task three easy
+"""
+def max_lett(*args):
+    return max(args, key=len)
+print(max_lett('raz', '2', 'mnogo'))
+"""
 
