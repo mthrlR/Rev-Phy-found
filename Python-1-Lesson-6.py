@@ -1,4 +1,4 @@
-# Easy
+# Easy part
 
 
 # Task one
